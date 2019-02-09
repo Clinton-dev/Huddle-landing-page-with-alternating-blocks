@@ -4,10 +4,16 @@
     padding: 0;
 }
 
+body {
+    Font-size: 18px;
+}
+
 .navigation {
     display: block;
     width: 100%;
     padding-bottom: 10px;
+    background-image: url(../images/bg-hero-mobile.svg);
+    text-align: center;
 
     .logo {
         display: inline-block;
@@ -34,5 +40,30 @@
             text-decoration: none;
             color: hsl(192, 100%, 9%);
         }
+    }
+
+    h3 {
+        font-weight: 600;
+        padding-top: 105px;
+        line-height: 1.72em;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        color:hsl(192, 100%, 9%);
+    }
+
+    p{
+        color: hsl(208, 11%, 55%);
+        font-weight: 400;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+
+    button {
+        margin-top: 20px;
+        border-radius: 25px;
+        padding: 10px 50px 10px 48px;
+        font-size: 16px;
+        background-color: hsl(322, 100%, 66%);
+        color: whitesmoke;
     }
 }
