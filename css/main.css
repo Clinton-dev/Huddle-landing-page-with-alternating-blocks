@@ -66,4 +66,67 @@ body {
   background-color: #ff52bf;
   color: whitesmoke;
 }
+
+.navigation img {
+  width: 300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.main-content {
+  width: 100%;
+  text-align: center;
+}
+
+.main-content .container {
+  width: 70%;
+  border: 1px solid #e8e8e8;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.main-content .container h3 {
+  padding-bottom: 16px;
+}
+
+.main-content .container img {
+  width: 70%;
+  padding-bottom: 31px;
+  padding-top: 40px;
+}
+
+.main-content .container p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #808d99;
+  line-height: 1.25em;
+  padding-left: 8px;
+  padding-right: 1px;
+}
+
+.main-content .bottom-form {
+  width: 88%;
+  border: 1px solid #e8e8e8;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.main-content .bottom-form button {
+  background-color: #ff52bf;
+  color: #fff;
+  padding: 10px 37px 10px 37px;
+  border-radius: 21px;
+}
+
+.main-content .bottom-form h3 {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #00252e;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
